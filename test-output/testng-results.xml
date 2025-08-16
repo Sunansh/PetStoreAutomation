@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-16T14:48:42 IST" name="Default suite" finished-at="2025-08-16T14:48:52 IST" duration-ms="10518">
+    <groups>
+    </groups>
+    <test started-at="2025-08-16T14:48:42 IST" name="Default test" finished-at="2025-08-16T14:48:52 IST" duration-ms="10518">
+      <class name="api.test.UserTests1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests1@72bc6553]" started-at="2025-08-16T14:48:42 IST" name="setup" finished-at="2025-08-16T14:48:42 IST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests1@72bc6553]" started-at="2025-08-16T14:48:42 IST" name="testPostUser" finished-at="2025-08-16T14:48:46 IST" duration-ms="3496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserTests1@72bc6553]" started-at="2025-08-16T14:48:46 IST" name="testGetUserByName" finished-at="2025-08-16T14:48:47 IST" depends-on-methods="api.test.UserTests1.testPostUser" duration-ms="1552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testUpdateUserByName()[pri:3, instance:api.test.UserTests1@72bc6553]" started-at="2025-08-16T14:48:47 IST" name="testUpdateUserByName" finished-at="2025-08-16T14:48:51 IST" depends-on-methods="api.test.UserTests1.testGetUserByName" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTests1@72bc6553]" started-at="2025-08-16T14:48:51 IST" name="testDeleteUserByName" finished-at="2025-08-16T14:48:52 IST" depends-on-methods="api.test.UserTests1.testUpdateUserByName" duration-ms="1529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.test.UserTests1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
